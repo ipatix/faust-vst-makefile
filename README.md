@@ -13,7 +13,7 @@ Faust:
 
 https://github.com/grame-cncm/faust/tree/master
 
-(for compiling faust: set the right compiler in the makefile and run "make win32")
+(for compiling faust: set the right C++ compiler (mingw) in the makefile and run "make win32")
 
 Cygwin or MSYS2:
 
@@ -22,6 +22,6 @@ http://www.msys2.org/
 https://cygwin.com/
 
 You will only need to set the two paths in the top of the Makefile to the locations of Faust and the VST SDK.
-Also, you might want to set the correct compiler.
+Also, you might want to set the correct compiler there.
 
 
